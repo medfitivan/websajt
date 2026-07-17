@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-labelledby="markTitle">
+  <title id="markTitle">MedFitIvan mark</title>
+  <rect width="240" height="200" fill="#16305C"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="square">
+    <path d="M30 110 L100 30 L170 110"/>
+    <path d="M100 110 L170 30 L210 70"/>
+    <line x1="60" y1="110" x2="60" y2="165"/>
+    <line x1="180" y1="110" x2="180" y2="165"/>
+  </g>
+  <polyline points="80,140 105,140 115,115 130,168 142,140 175,140" fill="none" stroke="#14B8A6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

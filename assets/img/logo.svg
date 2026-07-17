@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">MedFitIvan – Medical Doctor &amp; Fitness Coach</title>
+  <g fill="none" stroke="#16305C" stroke-width="14" stroke-linecap="square">
+    <path d="M40 90 L100 20 L160 90"/>
+    <path d="M100 90 L160 20 L220 90"/>
+    <line x1="70" y1="90" x2="70" y2="140"/>
+    <line x1="190" y1="90" x2="190" y2="140"/>
+  </g>
+  <polyline points="90,120 112,120 120,100 132,145 142,120 170,120" fill="none" stroke="#14B8A6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="260" y="105" font-family="'Poppins','Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="2" fill="#1F2933">MEDFITIVAN</text>
+  <text x="260" y="140" font-family="'Poppins','Segoe UI',sans-serif" font-size="18" font-weight="500" letter-spacing="3" fill="#16305C">MEDICAL DOCTOR • FITNESS COACH</text>
+</svg>

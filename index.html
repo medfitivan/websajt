@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedFitIvan — Доктор по општа медицина и фитнес тренер | Скопје</title>
+<meta name="description" content="MedFitIvan — комбинација на медицинска експертиза и персонализиран фитнес тренинг. Безбедни, научно-базирани планови за здравје и физичка форма. Закажи бесплатна консултација денес.">
+<meta name="keywords" content="фитнес тренер доктор, персонален тренинг, медицинска консултација, wellness програма, план за исхрана, онлајн коучинг, превентивна медицина">
+<meta name="author" content="MedFitIvan">
+<link rel="canonical" href="https://www.medfitivan.example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MedFitIvan — Медицина + Фитнес на едно место">
+<meta property="og:description" content="Единствена комбинација на лекарска експертиза и фитнес тренинг. Закажи бесплатна консултација и почни безбеден, персонализиран пат кон подобро здравје.">
+<meta property="og:image" content="assets/img/og-cover.svg">
+<meta property="og:url" content="https://www.medfitivan.example.com/">
+<meta property="og:locale" content="mk_MK">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MedFitIvan — Медицина + Фитнес на едно место">
+<meta name="twitter:description" content="Безбедни, научно-базирани планови за здравје и физичка форма, водени од доктор и фитнес тренер во едно.">
+<meta name="twitter:image" content="assets/img/og-cover.svg">
+
+<meta name="theme-color" content="#16305c">
+<link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo-mark.svg">
+
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured data: Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Д-р Иван [Презиме]",
+  "jobTitle": ["Доктор по општа медицина", "Фитнес тренер"],
+  "url": "https://www.medfitivan.example.com/",
+  "image": "https://www.medfitivan.example.com/assets/img/dr-ivan-portrait.svg",
+  "worksFor": {
+    "@type": "MedicalBusiness",
+    "name": "MedFitIvan"
+  },
+  "sameAs": [
+    "https://www.instagram.com/medfitivan",
+    "https://www.facebook.com/medfitivan",
+    "https://www.linkedin.com/company/medfitivan"
+  ]
+}
+</script>
+<!-- Structured data: LocalBusiness / MedicalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "MedFitIvan",
+  "description": "Персонализирани медицински консултации и фитнес/wellness тренинг под водство на доктор по општа медицина и сертифициран фитнес тренер.",
+  "image": "https://www.medfitivan.example.com/assets/img/og-cover.svg",
+  "priceRange": "€€",
+  "telephone": "+389-XX-XXX-XXX",
+  "email": "kontakt@medfitivan.mk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Примерна бб",
+    "addressLocality": "Скопје",
+    "postalCode": "1000",
+    "addressCountry": "MK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "41.9981",
+    "longitude": "21.4254"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/medfitivan",
+    "https://www.facebook.com/medfitivan",
+    "https://www.linkedin.com/company/medfitivan"
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Прескокни до содржина</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <a href="#hero" class="brand" aria-label="MedFitIvan почетна">
+      <img src="assets/img/logo-mark.svg" alt="MedFitIvan лого" width="40" height="40">
+      <span class="brand-name">MedFitIvan</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Главна навигација">
+      <a href="#about">За мене</a>
+      <a href="#services">Услуги</a>
+      <a href="#why">Зошто јас</a>
+      <a href="#credentials">Сертификати</a>
+      <a href="#pricing">Пакети</a>
+      <a href="#testimonials">Сведоштва</a>
+      <a href="#blog">Блог</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" aria-label="Промени тема" type="button">🌙</button>
+      <a href="#booking" class="btn btn-primary header-cta">Закажи термин</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Отвори мени" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<a href="#booking" class="btn btn-primary sticky-cta">Закажи термин</a>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-copy">
+        <span class="hero-eyebrow">Медицина • Фитнес • Wellness</span>
+        <h1>Здравјето не е компромис. <span>Твоето тело заслужува и доктор, и тренер.</span></h1>
+        <p class="lead">Јас сум д-р Иван — доктор по општа медицина и сертифициран фитнес тренер. Ги спојувам двете во еден безбеден, научно-базиран пат кон подобра форма и подолгорочно здравје.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Закажи бесплатна консултација</a>
+          <a href="#services" class="btn btn-outline">Дознај го твојот план за здравје</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>10+</strong><span>години искуство</span></div>
+          <div><strong>500+</strong><span>задоволни клиенти/пациенти</span></div>
+          <div><strong>2 во 1</strong><span>медицина + фитнес експертиза</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal="fade">
+        <div class="hero-card">
+          <img src="assets/img/hero-portrait.svg" alt="Д-р Иван — доктор по општа медицина и фитнес тренер во консултација со клиент" width="480" height="600" loading="eager">
+        </div>
+        <div class="hero-badge">
+          <span class="icon" aria-hidden="true">🩺</span>
+          <span><strong>Безбедни планови</strong><span>Секој тренинг е медицински проверен</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <div class="trust-strip">
+    <div class="container">
+      <div class="trust-item"><span class="icon" aria-hidden="true">🎓</span> Лиценциран доктор по општа медицина</div>
+      <div class="trust-item"><span class="icon" aria-hidden="true">🏅</span> Сертифициран фитнес тренер</div>
+      <div class="trust-item"><span class="icon" aria-hidden="true">🔬</span> Научно-базиран пристап</div>
+      <div class="trust-item"><span class="icon" aria-hidden="true">🤝</span> Персонализирана грижа</div>
+    </div>
+  </div>
+
+  <!-- ============ ЗА МЕНЕ ============ -->
+  <section class="section section--alt" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-media" data-reveal>
+          <img src="assets/img/dr-ivan-portrait.svg" alt="Портрет на д-р Иван, доктор по општа медицина и фитнес тренер" width="480" height="580" loading="lazy">
+          <span class="credential-chip">15+ сертификати</span>
+        </div>
+        <div class="about-copy" data-reveal>
+          <span class="section-tag">За мене</span>
+          <h2>Двојна експертиза, единствена цел — твоето здравје</h2>
+          <p>Со години работам и во клиничка медицина и во светот на фитнесот, и постојано гледам ист проблем: тренинг-плановите ретко се медицински осмислени, а медицинските совети ретко земаат предвид реален, одржлив начин на живот. Затоа одлучив да ги спојам двете.</p>
+
+          <h3>Медицинско образование</h3>
+          <p>Дипломиран доктор по општа медицина, со континуирана едукација во превентивна медицина, спортска физиологија и клиничка нутриција.</p>
+
+          <h3>Фитнес експертиза</h3>
+          <p>Меѓународно сертифициран персонален тренер, специјализиран за функционален тренинг, рехабилитација низ движење и долгорочна промена на навики.</p>
+
+          <div class="philosophy-list">
+            <div class="philosophy-item">
+              <span class="icon" aria-hidden="true">🧭</span>
+              <div><strong>Холистички пристап</strong><p>Гледам на телото како целина — не само симптоми или само мускули.</p></div>
+            </div>
+            <div class="philosophy-item">
+              <span class="icon" aria-hidden="true">📊</span>
+              <div><strong>Одлуки базирани на податоци</strong><p>Секој план тргнува од твоите реални здравствени показатели, не од трендови.</p></div>
+            </div>
+            <div class="philosophy-item">
+              <span class="icon" aria-hidden="true">🌱</span>
+              <div><strong>Долгорочна одржливост</strong><p>Градиме навики што траат, наместо брзи резултати што исчезнуваат.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ УСЛУГИ ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Услуги</span>
+        <h2>Целосна грижа — од дијагноза до трансформација</h2>
+        <p>Двете страни на мојата експертиза работат заедно, но можеш да ги користиш и посебно, во зависност од твоите потреби.</p>
+      </div>
+
+      <div class="services-cols">
+        <div class="service-col" data-reveal>
+          <div class="service-col-head">
+            <span class="icon" aria-hidden="true">🩺</span>
+            <h3>Медицински услуги</h3>
+          </div>
+          <ul class="service-list">
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Општи прегледи</h4><p>Комплетна проценка на здравствената состојба и рана детекција на ризици.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Здравствени консултации</h4><p>Индивидуален разговор за симптоми, навики и здравствени цели.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Превентивна медицина</h4><p>Планови за спречување хронични заболувања пред да се појават.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Спортско-медицински извештаи</h4><p>Проценка на физичка подготвеност пред почеток на тренинг програма.</p></div></li>
+          </ul>
+        </div>
+
+        <div class="service-col" data-reveal>
+          <div class="service-col-head">
+            <span class="icon" aria-hidden="true">🏋️</span>
+            <h3>Фитнес и тренинг услуги</h3>
+          </div>
+          <ul class="service-list">
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Персонални тренинзи</h4><p>Индивидуални или во мали групи, прилагодени на твоето ниво и цели.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Планови за исхрана</h4><p>Нутриционистички насоки усогласени со твојот метаболизам и начин на живот.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Wellness програми</h4><p>Комбинација на движење, одмор и ментално здравје за целосна рамнотежа.</p></div></li>
+            <li><span class="check" aria-hidden="true">✓</span><div><h4>Онлајн коучинг</h4><p>Следење и поддршка на далечина, каде и да се наоѓаш.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ЗОШТО ЈАС СУМ РАЗЛИЧЕН ============ -->
+  <section class="section why-section" id="why">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag" style="background:rgba(20,184,166,0.18)">Зошто јас</span>
+        <h2 style="color:#fff">Комбинацијата што ја нема секаде</h2>
+        <p>Не мора да избираш помеѓу медицинска безбедност и фитнес резултати. Со мене ги добиваш и двете, истовремено.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card" data-reveal>
+          <div class="icon" aria-hidden="true">🛡️</div>
+          <h4>Безбедни тренинг планови</h4>
+          <p>Секоја вежба е проверена низ медицинска призма — без ризик од повреди или влошување на состојба.</p>
+        </div>
+        <div class="why-card" data-reveal>
+          <div class="icon" aria-hidden="true">🔬</div>
+          <h4>Научно-базиран пристап</h4>
+          <p>Одлуките се темелат на клинички докази, не на трендови од социјални мрежи.</p>
+        </div>
+        <div class="why-card" data-reveal>
+          <div class="icon" aria-hidden="true">🧩</div>
+          <h4>Еден план, целосна слика</h4>
+          <p>Немаш потреба од доктор и тренер одделно кои не комуницираат меѓусебно.</p>
+        </div>
+        <div class="why-card" data-reveal>
+          <div class="icon" aria-hidden="true">💬</div>
+          <h4>Персонализирана комуникација</h4>
+          <p>Директен пристап до мене, без бариери и без generic совети.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ СЕРТИФИКАТИ ============ -->
+  <section class="section section--alt" id="credentials">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Квалификации</span>
+        <h2>Образование и сертификати</h2>
+        <p>Транспарентност е дел од довербата — еве ги моите формални квалификации.</p>
+      </div>
+      <div class="credentials-grid">
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">🎓</span>
+          <div><h4>Доктор по општа медицина</h4><p>Медицински факултет, [Универзитет] — placeholder за годината на дипломирање.</p></div>
+        </div>
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">📜</span>
+          <div><h4>Лиценца за работа</h4><p>Издадена од Лекарска комора на Северна Македонија — placeholder број на лиценца.</p></div>
+        </div>
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">🏅</span>
+          <div><h4>Меѓународен сертификат за персонален тренер</h4><p>Placeholder за назив на сертифициращо тело (пр. NASM, ACE, ISSA).</p></div>
+        </div>
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">🥗</span>
+          <div><h4>Сертификат за спортска нутриција</h4><p>Placeholder за назив на курс/институција.</p></div>
+        </div>
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">🧠</span>
+          <div><h4>Континуирана медицинска едукација</h4><p>Редовно посетување стручни конгреси и усовршувања.</p></div>
+        </div>
+        <div class="credential-card" data-reveal>
+          <span class="icon" aria-hidden="true">🤝</span>
+          <div><h4>Членство во стручни здруженија</h4><p>Placeholder за здруженија на лекари и фитнес професионалци.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ПАКЕТИ / ЦЕНОВНИК ============ -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Пакети</span>
+        <h2>Избери го нивото на грижа што ти треба</h2>
+        <p>Сите пакети вклучуваат почетна медицинска проценка. Цените се ориентациони — placeholder, прилагоди по потреба.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card" data-reveal>
+          <h3>Basic</h3>
+          <p class="tagline">За првиот чекор кон подобро здравје</p>
+          <div class="price-tag">2.500 ден <span>/ месечно</span></div>
+          <p class="price-note">Placeholder цена — прилагоди според твоите услуги</p>
+          <ul class="price-features">
+            <li><span class="check" aria-hidden="true">✓</span> Почетна медицинска консултација</li>
+            <li><span class="check" aria-hidden="true">✓</span> Основен фитнес план (4 недели)</li>
+            <li><span class="check" aria-hidden="true">✓</span> Насоки за исхрана</li>
+            <li><span class="check" aria-hidden="true">✓</span> Email поддршка</li>
+          </ul>
+          <a href="#booking" class="btn btn-navy btn-block">Избери Basic</a>
+        </div>
+
+        <div class="price-card price-card--featured" data-reveal>
+          <span class="price-badge">Најпопуларен</span>
+          <h3>Premium</h3>
+          <p class="tagline">Целосна медицинско-фитнес трансформација</p>
+          <div class="price-tag">4.900 ден <span>/ месечно</span></div>
+          <p class="price-note">Placeholder цена — прилагоди според твоите услуги</p>
+          <ul class="price-features">
+            <li><span class="check" aria-hidden="true">✓</span> Проширена медицинска проценка</li>
+            <li><span class="check" aria-hidden="true">✓</span> Персонализиран тренинг план (12 недели)</li>
+            <li><span class="check" aria-hidden="true">✓</span> Детален план за исхрана</li>
+            <li><span class="check" aria-hidden="true">✓</span> Неделно следење на напредок</li>
+            <li><span class="check" aria-hidden="true">✓</span> Приоритетна комуникација</li>
+          </ul>
+          <a href="#booking" class="btn btn-primary btn-block">Избери Premium</a>
+        </div>
+
+        <div class="price-card" data-reveal>
+          <h3>VIP</h3>
+          <p class="tagline">Целосна лична посветеност</p>
+          <div class="price-tag">8.500 ден <span>/ месечно</span></div>
+          <p class="price-note">Placeholder цена — прилагоди според твоите услуги</p>
+          <ul class="price-features">
+            <li><span class="check" aria-hidden="true">✓</span> Неограничени медицински консултации</li>
+            <li><span class="check" aria-hidden="true">✓</span> Целосно индивидуален тренинг (1-на-1)</li>
+            <li><span class="check" aria-hidden="true">✓</span> Персонализирана нутриција + лабораториски преглед</li>
+            <li><span class="check" aria-hidden="true">✓</span> Достапност 24/7 за итни прашања</li>
+            <li><span class="check" aria-hidden="true">✓</span> Месечен извештај за напредок</li>
+          </ul>
+          <a href="#booking" class="btn btn-navy btn-block">Избери VIP</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ СВЕДОШТВА ============ -->
+  <section class="section section--alt" id="testimonials">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Сведоштва</span>
+        <h2>Што велат моите клиенти и пациенти</h2>
+      </div>
+
+      <div class="testimonial-slider">
+        <button class="testimonial-arrow testimonial-arrow--prev" aria-label="Претходно сведоштво">‹</button>
+        <div class="testimonial-track">
+          <div class="testimonial-slides">
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-quote">"За прв пат имам тренинг план кој навистина го зема предвид моето здравје, не само бројки на вага. Резултатите се видливи, а се чувствувам и побезбедно."</p>
+                <div class="testimonial-person">
+                  <img src="assets/img/testimonial-1.svg" alt="" width="52" height="52" loading="lazy">
+                  <div><strong>Елена П.</strong><span>Клиентка, 8 месеци соработка</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-quote">"Комбинацијата доктор + тренер направи огромна разлика. Добив медицински совет и тренинг план во иста средба — заштеда на време и нерви."</p>
+                <div class="testimonial-person">
+                  <img src="assets/img/testimonial-2.svg" alt="" width="52" height="52" loading="lazy">
+                  <div><strong>Марко Т.</strong><span>Пациент, превентивна програма</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-quote">"Онлајн коучингот ми овозможи да тренирам безбедно и покрај хроничен проблем со грбот. Професионализам на највисоко ниво."</p>
+                <div class="testimonial-person">
+                  <img src="assets/img/testimonial-3.svg" alt="" width="52" height="52" loading="lazy">
+                  <div><strong>Ана С.</strong><span>Онлајн клиентка</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="testimonial-arrow testimonial-arrow--next" aria-label="Следно сведоштво">›</button>
+        <div class="testimonial-nav"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ БЛОГ ============ -->
+  <section class="section" id="blog">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Блог</span>
+        <h2>Здравствени совети од прва рака</h2>
+        <p>Кратки, практични написи што ги спојуваат медицината и фитнесот.</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card" data-reveal>
+          <img src="assets/img/blog-1.svg" alt="Илустрација за тренинг и заболувања на 'рбетот" width="400" height="250" loading="lazy">
+          <div class="blog-card-body">
+            <span class="blog-tag">Фитнес и здравје</span>
+            <h3>5 вежби безбедни за луѓе со проблеми со 'рбетот</h3>
+            <p>Практичен водич за движење што ја зајакнува 'рбетната мускулатура без ризик од повреда.</p>
+            <a href="blog/vezhbi-za-rbet.html" class="blog-read">Прочитај повеќе →</a>
+          </div>
+        </article>
+        <article class="blog-card" data-reveal>
+          <img src="assets/img/blog-2.svg" alt="Илустрација за исхрана и метаболизам" width="400" height="250" loading="lazy">
+          <div class="blog-card-body">
+            <span class="blog-tag">Исхрана</span>
+            <h3>Зошто "брзите" диети не функционираат долгорочно</h3>
+            <p>Медицински поглед на тоа што навистина се случува со метаболизмот при рестриктивни диети.</p>
+            <a href="blog/brzi-dieti.html" class="blog-read">Прочитај повеќе →</a>
+          </div>
+        </article>
+        <article class="blog-card" data-reveal>
+          <img src="assets/img/blog-3.svg" alt="Илустрација за превентивни прегледи" width="400" height="250" loading="lazy">
+          <div class="blog-card-body">
+            <span class="blog-tag">Превентива</span>
+            <h3>Кога треба да направиш превентивен преглед пред тренинг</h3>
+            <p>Знаци кои укажуваат дека е време за медицинска проценка пред почеток на нова програма.</p>
+            <a href="blog/preventiven-pregled.html" class="blog-read">Прочитај повеќе →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ЗАКАЖУВАЊЕ ============ -->
+  <section class="section section--alt" id="booking">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Закажување</span>
+        <h2>Закажи го твојот прв чекор</h2>
+        <p>Избери термин што ти одговара — јас се грижам за останатото.</p>
+      </div>
+      <div class="booking-wrap">
+        <div class="booking-info" data-reveal>
+          <h3>Како функционира закажувањето</h3>
+          <p style="color:rgba(255,255,255,0.75)">Целиот процес трае неколку минути.</p>
+          <div class="booking-steps">
+            <div class="booking-step"><span class="num">1</span><div><strong>Избери термин</strong><p style="margin:4px 0 0;color:rgba(255,255,255,0.7);font-size:0.9rem">Погледни го календарот и одбери слободен слот.</p></div></div>
+            <div class="booking-step"><span class="num">2</span><div><strong>Пополни кратка анкета</strong><p style="margin:4px 0 0;color:rgba(255,255,255,0.7);font-size:0.9rem">Основни здравствени и фитнес прашања пред средбата.</p></div></div>
+            <div class="booking-step"><span class="num">3</span><div><strong>Consultacija</strong><p style="margin:4px 0 0;color:rgba(255,255,255,0.7);font-size:0.9rem">Онлајн или во живо — по твој избор.</p></div></div>
+          </div>
+          <a href="tel:+389XXXXXXXXX" class="btn btn-outline" style="margin-top:28px">Или јави се директно</a>
+        </div>
+        <div class="calendly-placeholder" data-reveal>
+          <span class="icon" aria-hidden="true">📅</span>
+          <h3>Calendly интеграција — placeholder</h3>
+          <p>Овде треба да се вгради твојот Calendly (или сличен) календар. Замени го овој блок со:</p>
+          <code>&lt;div class="calendly-inline-widget" data-url="https://calendly.com/твое-корисничко-име" style="min-width:320px;height:630px;"&gt;&lt;/div&gt;<br>&lt;script src="https://assets.calendly.com/assets/external/widget.js" async&gt;&lt;/script&gt;</code>
+          <a href="#contact" class="btn btn-navy">Или испрати барање преку контакт формата</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ КОНТАКТ ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Контакт</span>
+        <h2>Да разговараме за твоето здравје</h2>
+        <p>Прашај ме било што — одговарам лично на секое прашање.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" data-validate novalidate data-reveal aria-label="Контакт формулар">
+          <div class="form-success" role="status">Ви благодариме! Пораката е успешно испратена — ќе ви одговориме наскоро.</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cf-name">Име и презиме *</label>
+              <input type="text" id="cf-name" name="name" required autocomplete="name">
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Е-мејл *</label>
+              <input type="email" id="cf-email" name="email" required autocomplete="email">
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cf-phone">Телефон</label>
+              <input type="tel" id="cf-phone" name="phone" autocomplete="tel">
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-subject">Тип на барање</label>
+              <select id="cf-subject" name="subject">
+                <option value="medical">Медицинска консултација</option>
+                <option value="fitness">Фитнес тренинг</option>
+                <option value="both">Комбинирано (медицина + фитнес)</option>
+                <option value="other">Друго</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Порака *</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Испрати порака</button>
+        </form>
+
+        <div class="contact-details" data-reveal>
+          <div class="contact-detail-card">
+            <span class="icon" aria-hidden="true">📍</span>
+            <div><h4>Адреса</h4><p>ул. Примерна бб, 1000 Скопје, Северна Македонија (placeholder)</p></div>
+          </div>
+          <div class="contact-detail-card">
+            <span class="icon" aria-hidden="true">📞</span>
+            <div><h4>Телефон</h4><p><a href="tel:+389XXXXXXXXX">+389 XX XXX XXX</a> (placeholder)</p></div>
+          </div>
+          <div class="contact-detail-card">
+            <span class="icon" aria-hidden="true">✉️</span>
+            <div><h4>Е-мејл</h4><p><a href="mailto:kontakt@medfitivan.mk">kontakt@medfitivan.mk</a> (placeholder)</p></div>
+          </div>
+          <div class="contact-detail-card">
+            <span class="icon" aria-hidden="true">🕐</span>
+            <div><h4>Работно време</h4><p>Пон–Пет: 08:00–20:00 · Саб: 09:00–14:00</p></div>
+          </div>
+          <!-- Placeholder map query — replace "Skopje, North Macedonia" with your real address -->
+          <iframe class="map-embed" title="Локација на MedFitIvan на Google Maps" src="https://www.google.com/maps?q=Skopje,+North+Macedonia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="social-row">
+            <a href="https://instagram.com/medfitivan" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+            <a href="https://facebook.com/medfitivan" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+            <a href="https://linkedin.com/company/medfitivan" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="brand">
+          <img src="assets/img/logo-mark.svg" alt="MedFitIvan лого" width="36" height="36">
+          <span class="brand-name">MedFitIvan</span>
+        </a>
+        <p>Медицинска експертиза и фитнес тренинг на едно место — за твое безбедно и одржливо здравје.</p>
+        <div class="social-row" style="margin-top:20px">
+          <a href="https://instagram.com/medfitivan" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          <a href="https://facebook.com/medfitivan" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+          <a href="https://linkedin.com/company/medfitivan" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+        </div>
+      </div>
+      <div>
+        <h4>Брзи линкови</h4>
+        <div class="footer-links">
+          <a href="#about">За мене</a>
+          <a href="#services">Услуги</a>
+          <a href="#pricing">Пакети</a>
+          <a href="#testimonials">Сведоштва</a>
+        </div>
+      </div>
+      <div>
+        <h4>Ресурси</h4>
+        <div class="footer-links">
+          <a href="#blog">Блог</a>
+          <a href="#credentials">Сертификати</a>
+          <a href="#booking">Закажување</a>
+          <a href="#contact">Контакт</a>
+        </div>
+      </div>
+      <div>
+        <h4>Работно време</h4>
+        <div class="footer-hours">
+          <div><span>Понеделник – Петок</span><span>08:00 – 20:00</span></div>
+          <div><span>Сабота</span><span>09:00 – 14:00</span></div>
+          <div><span>Недела</span><span>Затворено</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="currentYear"></span> MedFitIvan. Сите права задржани.</span>
+      <span>Изработено со ❤ за здравје и фитнес.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

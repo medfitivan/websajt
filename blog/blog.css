@@ -1,0 +1,7 @@
+.blog-article-container { max-width: 760px; }
+.blog-article h1 { font-size: clamp(1.8rem, 3.4vw, 2.4rem); margin-top: 16px; }
+.blog-meta { color: var(--charcoal-soft); font-size: 0.9rem; margin-bottom: 28px; }
+.blog-article-cover { width: 100%; border-radius: var(--radius-l); margin-bottom: 32px; box-shadow: var(--shadow-s); aspect-ratio: 2/1; object-fit: cover; }
+.blog-article h2 { font-size: 1.3rem; margin-top: 36px; }
+.blog-article p { color: var(--charcoal-soft); font-size: 1.02rem; }
+.blog-article .btn { margin-top: 24px; }
