@@ -148,11 +148,11 @@
         <div class="about-media" data-reveal>
           <img src="assets/img/dr-ivan-portrait.svg" alt="Портрет на д-р Иван, доктор по општа медицина и фитнес тренер" width="480" height="580" loading="lazy">
           <span class="credential-chip">15+ сертификати</span>
-          <!-- TODO: замени со вистинско welcome видео (embed или self-hosted mp4) -->
-          <button class="video-placeholder about-video" type="button" aria-label="Пушти welcome видео">
-            <span class="play-icon" aria-hidden="true">▶</span>
-            <span class="video-caption">Запознај ме — кратко видео</span>
-          </button>
+          <!-- Welcome видео: качи го фајлот како assets/video/welcome.mp4 -->
+          <video class="about-video" controls preload="none" poster="assets/img/dr-ivan-portrait.svg" aria-label="Запознај ме — кратко видео">
+            <source src="assets/video/welcome.mp4" type="video/mp4">
+            Твојот прелистувач не поддржува репродукција на видео. <a href="assets/video/welcome.mp4">Преземи го видеото</a>.
+          </video>
         </div>
         <div class="about-copy" data-reveal>
           <span class="section-tag">За мене</span>

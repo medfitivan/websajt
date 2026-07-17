@@ -292,7 +292,14 @@ p { margin: 0 0 1em; }
 }
 .video-placeholder:hover .play-icon { transform: scale(1.08); }
 .video-placeholder .video-caption { font-size: 0.88rem; font-weight: 600; }
-.about-video { margin-top: 16px; }
+.about-video {
+  margin-top: 16px;
+  width: 100%; aspect-ratio: 16 / 9;
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-m);
+  background: var(--navy-900);
+  object-fit: cover;
+}
 
 .about-copy h3 { font-size: 1.3rem; margin-top: 28px; }
 .philosophy-list { display: grid; gap: 16px; margin-top: 24px; }
