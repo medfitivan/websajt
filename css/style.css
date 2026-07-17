@@ -506,17 +506,17 @@ p { margin: 0 0 1em; }
   width: 34px; height: 34px; border-radius: 50%; background: var(--accent); color: #06231f;
   display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.9rem;
 }
-.calendly-placeholder {
+.booking-form-embed {
   background: var(--white);
-  border: 2px dashed var(--grey-300);
   border-radius: var(--radius-l);
-  padding: 48px 32px;
-  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
-  gap: 16px;
-  min-height: 360px;
+  overflow: hidden;
+  box-shadow: var(--shadow-s);
+  min-height: 640px;
 }
-.calendly-placeholder .icon { font-size: 2.4rem; }
-.calendly-placeholder code { background: var(--grey-100); padding: 4px 10px; border-radius: 6px; font-size: 0.82rem; }
+.booking-form-embed iframe {
+  width: 100%; height: 100%; min-height: 640px;
+  border: none; display: block;
+}
 
 /* ---------- Contact ---------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
